@@ -1,0 +1,172 @@
+/* HEADER */
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 25% 10%;
+	background: url('../img/seattle.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+}
+
+#name {
+	font-size: 5em;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Handlee', cursive;
+}
+
+#job {
+	color: white;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	margin-top: -2em;
+	font-family: 'Special Elite', cursive;
+}
+
+/* NAVIGATION */
+
+nav {
+	text-align: center;
+	width: 100%;
+	padding: 0.6em;
+	position: fixed;
+	background: #FFFAF0;
+	opacity: 0.5;
+}
+
+nav li {
+	display: inline;
+	font-family: 'Special Elite', cursive;
+	text-transform: uppercase;
+	padding: 1em;
+	margin-right: 2em;
+}
+
+#home-nav {
+	margin-right: 0.5em;
+	margin-left: -1em;
+}
+
+
+nav:hover {
+	opacity: 0.7;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-weight: 800;
+	color: red;
+}
+
+/* PICTURE */
+
+#photo img {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* ABOUT */
+
+#about {
+	padding-top: 7em;
+	padding-bottom: 10em;
+}
+
+#seattle {
+	display: block;
+	width: 20em;
+	height: 20em;
+	border-radius: 100%;
+	margin: 10em auto 5em;
+}
+
+#about-me {
+	padding: 3em;
+	line-height: 1.5em;
+}
+
+#about-me h1 {
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 480px) {
+	#seattle {
+		float: left;
+		margin-top: 5em;
+		margin-right: 5em;
+		margin-left: 5em;
+	}
+
+	#about-me h1 {
+		line-height: 1em;
+		margin-top: 3.5em;
+	}
+}
+
+/* CONTACT */
+
+#contact-info {
+	background: #F0F8FF;
+	text-align: center;
+	margin-top: 10em;
+	padding-top: 17em;
+	padding-bottom: 17em;
+}
+
+#contact-info h1 {
+	text-transform: uppercase;
+	clear: both;
+	border: solid;
+	width: 9em;
+	margin: 2em auto;
+	padding: 2em;
+}
+
+#contact-info a {
+	text-decoration: none;
+	color: black;
+}
+
+#contact-info a:hover {
+	color: red;
+}
+
+@media screen and (max-width: 480px) {
+	#contact-info h1 {
+		padding: 1em;
+	}
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #000;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	margin-bottom: -1em;
+	padding-top: 3em;
+}
+
+footer p {
+	text-transform: uppercase;
+	padding-top: 3.125em;
+}
+
+#email {
+	width: 2.5em;
+	height: 2.5em;
+	padding-bottom: 0.625em;
+	padding-left: 1em;
+}
+
+#copyright {
+	font-size: 0.80em;
+	padding-top: 1.25em;
+}
