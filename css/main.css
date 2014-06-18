@@ -193,6 +193,13 @@ footer p {
 	padding-top: 3.125em;
 }
 
+#github {
+	width: 2.5em;
+	height: 2.5em;
+	padding-bottom: 0.625em;
+	padding-left: 1em;
+}
+
 #email {
 	width: 2.5em;
 	height: 2.5em;
