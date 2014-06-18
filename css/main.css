@@ -42,12 +42,6 @@ nav li {
 	padding: 1em;
 }
 
-#home-nav {
-	margin-right: 0.5em;
-	margin-left: -1em;
-}
-
-
 nav:hover {
 	opacity: 0.7;
 }
