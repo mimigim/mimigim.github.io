@@ -118,6 +118,10 @@ nav a:hover {
 	#about-me p {
 		text-align: center;
 	}
+
+	#about {
+		padding-bottom: 6em;
+	}
 }
 
 /* CONTACT */
