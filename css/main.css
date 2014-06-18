@@ -24,6 +24,22 @@ header {
 	font-family: 'Special Elite', cursive;
 }
 
+@media screen and (max-width: 320px) {
+	header {
+		background: black;
+		padding-top: 9em;
+		padding-bottom: 6em;
+	}
+
+	#name {
+		font-size: 3em;
+	}
+
+	#job {
+		font-size: 1em;
+	}
+}
+
 /* NAVIGATION */
 
 nav {
@@ -88,6 +104,12 @@ nav a:hover {
 	text-transform: uppercase;
 }
 
+@media screen and (max-width: 320px) {
+	#about {
+		padding-top: 6em;
+	}
+}
+
 @media screen and (max-width: 640px) {
 	#seattle {
 		float: none;
@@ -139,6 +161,13 @@ nav a:hover {
 
 #contact-info a:hover {
 	color: red;
+}
+
+@media screen and (max-width: 320px) {
+	#contact-info {
+		padding-top: 10em;
+		padding-bottom: 10em;
+	}
 }
 
 @media screen and (max-width: 480px) {
