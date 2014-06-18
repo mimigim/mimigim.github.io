@@ -40,7 +40,6 @@ nav li {
 	font-family: 'Special Elite', cursive;
 	text-transform: uppercase;
 	padding: 1em;
-	margin-right: 2em;
 }
 
 #home-nav {
@@ -74,20 +73,23 @@ nav a:hover {
 /* ABOUT */
 
 #about {
-	padding-top: 7em;
-	padding-bottom: 10em;
+	padding-top: 10em;
+	padding-bottom: 17em;
+
 }
 
 #seattle {
-	display: block;
+	float: left;
 	width: 20em;
 	height: 20em;
+	padding-left: 3em;
+	padding-right: 3em;
 	border-radius: 100%;
-	margin: 10em auto 5em;
 }
 
 #about-me {
-	padding: 3em;
+	padding-right: 3em;
+	padding-top: 7em;
 	line-height: 1.5em;
 }
 
@@ -95,17 +97,26 @@ nav a:hover {
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 640px) {
 	#seattle {
-		float: left;
-		margin-top: 5em;
-		margin-right: 5em;
-		margin-left: 5em;
+		float: none;
+		width: 15em;
+		height: 15em;
+		display: block;
+		margin: 0.5em auto -5em;
 	}
 
 	#about-me h1 {
-		line-height: 1em;
-		margin-top: 3.5em;
+		text-align: center;
+	}
+
+	#about-me {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	#about-me p {
+		text-align: center;
 	}
 }
 
@@ -113,19 +124,17 @@ nav a:hover {
 
 #contact-info {
 	background: #F0F8FF;
-	text-align: center;
-	margin-top: 10em;
-	padding-top: 17em;
-	padding-bottom: 17em;
+	padding-top: 20em;
+	padding-bottom: 20em;
 }
 
 #contact-info h1 {
+	text-align: center;
 	text-transform: uppercase;
-	clear: both;
 	border: solid;
-	width: 9em;
-	margin: 2em auto;
 	padding: 2em;
+	width: 300px;
+	margin: 0 auto;
 }
 
 #contact-info a {
@@ -139,7 +148,8 @@ nav a:hover {
 
 @media screen and (max-width: 480px) {
 	#contact-info h1 {
-		padding: 1em;
+		width: 250px;
+		padding: 0.5em;
 	}
 }
 
