@@ -1,27 +1,27 @@
 /* HEADER */
 
 header {
-	text-align: center;
-	margin: 0 auto;
-	padding: 25% 10%;
 	background: url('../img/seattle.JPG') no-repeat;
 	background-attachment: fixed;
 	background-position:center;
+	margin: 0 auto;
+	padding: 25% 10%;
+	text-align: center;
 }
 
-#name {
-	font-size: 5em;
-	color: #FFF;
-	text-transform: uppercase;
+.name {
 	font-family: 'Handlee', cursive;
+	font-size: 5em;
+	text-transform: uppercase;
+	color: #FFF;
 }
 
-#job {
-	color: white;
+.job {
+	font-family: 'Special Elite', cursive;
 	font-size: 1.5em;
 	text-transform: lowercase;
+	color: white;
 	margin-top: -2em;
-	font-family: 'Special Elite', cursive;
 }
 
 @media screen and (max-width: 320px) {
@@ -31,11 +31,11 @@ header {
 		padding-bottom: 6em;
 	}
 
-	#name {
+	.name {
 		font-size: 3em;
 	}
 
-	#job {
+	.job {
 		font-size: 1em;
 	}
 }
@@ -71,7 +71,7 @@ nav a:hover {
 
 /* PICTURE */
 
-#photo img {
+.mimi-photo img {
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -85,7 +85,7 @@ nav a:hover {
 
 }
 
-#seattle {
+.seattle-photo {
 	float: left;
 	width: 20em;
 	height: 20em;
@@ -94,13 +94,13 @@ nav a:hover {
 	border-radius: 100%;
 }
 
-#about-me {
+.description {
 	padding-right: 3em;
 	padding-top: 7em;
 	line-height: 1.5em;
 }
 
-#about-me h1 {
+.description h1 {
 	text-transform: uppercase;
 }
 
@@ -111,7 +111,7 @@ nav a:hover {
 }
 
 @media screen and (max-width: 640px) {
-	#seattle {
+	.seattle-photo {
 		float: none;
 		width: 14em;
 		height: 14em;
@@ -119,16 +119,16 @@ nav a:hover {
 		margin: 0.5em auto -5em;
 	}
 
-	#about-me h1 {
+	.description h1 {
 		text-align: center;
 	}
 
-	#about-me {
+	.description {
 		padding-left: 2em;
 		padding-right: 2em;
 	}
 
-	#about-me p {
+	.description p {
 		text-align: center;
 	}
 
@@ -180,9 +180,9 @@ nav a:hover {
 /* FOOTER */
 
 footer {
+	font-family: 'Special Elite', cursive;
 	background-color: #000;
 	text-align: center;
-	font-family: 'Special Elite', cursive;
 	color: white;
 	margin-bottom: -1em;
 	padding-top: 3em;
@@ -193,21 +193,21 @@ footer p {
 	padding-top: 3.125em;
 }
 
-#github {
+.github {
 	width: 2.2em;
 	height: 2.2em;
 	padding-bottom: 0.625em;
 	padding-left: 1em;
 }
 
-#email {
+.email {
 	width: 2.5em;
 	height: 2.5em;
 	padding-bottom: 0.625em;
 	padding-left: 1em;
 }
 
-#copyright {
+.copyright {
 	font-size: 0.80em;
 	padding-top: 1.25em;
 }

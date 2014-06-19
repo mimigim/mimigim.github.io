@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html lang="en"> <!-- declare primary language of webpage-->
+	<head>
+		<meta charset="utf-8"> <!--new to HTML5 and specifies character encoding for HTML DOC-->
+		<title>mimi gim | web developer</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="mimi gim, mimi, gim, web development">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--responsive web design; included in html5 boilerplate; device-width means website adapts to browser width; initial-scale=1 means 1 css px is equal to 1 viewport px-->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'> <!--fonts go before custom css to be used in the file-->
+		<link rel="stylesheet" href="css/main.css"> <!--type="text/css" no longer required in html5-->
+	</head>
 
-<head>
-	<meta charset="utf-8"> <!--new to HTML5 and specifies character encoding for HTML DOC-->
-	<title>mimi gim | web developer</title>
-	<meta name="description" content="">
-	<meta name="keywords" content="mimi gim, mimi, gim, web development">
-	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--responsive web design; included in html5 boilerplate; device-width means website adapts to browser width; initial-scale=1 means 1 css px is equal to 1 viewport px-->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'> <!--fonts go before custom css to be used in the file-->
-	<link rel="stylesheet" href="css/main.css"> <!--type="text/css" no longer required in html5-->
-</head>
+	<body>
+		<nav role="navigation bar"> <!--html5-->
+					<a href="#home">home</a>
+					<a href="#about">about</a>
+					<a href="#contact-info">contact</a>
+		</nav>
 
-<body>
-	<nav role="navigation bar"> <!--html5-->
-				<a href="#home" id="home-nav">home</a>
-				<a href="#about">about</a>
-				<a href="#contact-info">contact</a>
+		<header id="home">
+			<h1 class="name">mimi gim</h1>
+			<p class="job">&#40;aspiring&#41; front-end developer</p>
+		</header>
 
-	</nav>
+		<img src="img/mimi.JPG" alt="mimi at centurylink fields" class="mimi-photo">
 
-	<header id="home">
-		<h1 id="name">mimi gim</h1>
-		<p id="job">&#40;aspiring&#41; front-end developer</p>
-	</header>
+		<section id="about"> <!--new to html5; generic section of document-->
+			<img src="img/seattle.JPG" alt="seattle" class="seattle-photo">
+			<div class="description">
+				<h1>about me</h1>
+				<hr> <!--horizontal rule, visual/semantic break-->
+				<p>Hello! &#9786;<br>I'm an aspiring front-end web developer living in Seattle.</p>
+			</div>
+		</section>
 
-	<section id="photo">
-		<img src="img/mimi.JPG" alt="mimi picture">
-	</section>
+		<section id="contact-info">
+			<a href="#contact"><h1>stay in touch &darr;</h1></a>
+		</section>
 
-	<section id="about"> <!--new to html5; generic section of document-->
-		<img src="img/seattle.JPG" alt="seattle picture" id="seattle">
-		<div id="about-me">
-			<h1>about me</h1>
-			<hr> <!--horizontal rule, visual/semantic break-->
-			<p>Hello! &#9786;<br>I'm an aspiring front-end web developer living in Seattle.</p>
-		</div>
-	</section>
-
-	<section id="contact-info">
-		<a href="#contact"><h1>stay in touch &darr;</h1></a>
-	</section>
-
-	<footer>
-		<address id="contact"> <!--html5; contact information-->
-			<a href="https://github.com/mimigim"><img src="img/github.png" alt="github" id="github"></a>
-			<a href="mailto:mimileegim@gmail.com"><img src="img/email.png" alt="mail" id="email"></a> <!--iconfinder.com-->
-			<a href="http://mimigim.vsco.co"><img src="img/vscocam.png" alt="camera" id="vscocam"></a>
-		</address>
-		<div id="copyright"
-			<p>&copy; 2014 Mimi Gim.</p>
-		</div>
-	</footer>
-
-</body>
+		<footer>
+			<address id="contact"> <!--html5; contact information-->
+				<a href="https://github.com/mimigim"><img src="img/github.png" alt="github" class="github"></a>
+				<a href="mailto:mimileegim@gmail.com"><img src="img/email.png" alt="mail" class="email"></a> <!--iconfinder.com-->
+				<a href="http://mimigim.vsco.co"><img src="img/vscocam.png" alt="camera" class="vscocam"></a>
+			</address>
+			<div class="copyright"
+				<p>&copy; 2014 Mimi Gim.</p>
+			</div>
+		</footer>
+	</body>
 </html>
