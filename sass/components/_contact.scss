@@ -1,0 +1,14 @@
+.contact {
+  background: url('../../img/smile.jpg') center center;
+  background-size: contain;
+  background-attachment: fixed;
+  text-align: center;
+  a {
+    color: #fff;
+    font-size: 3em;
+    padding: 0.1em;
+  }
+  span:hover {
+    color: #23EF90;
+  }
+}

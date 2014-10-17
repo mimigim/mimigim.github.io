@@ -1,0 +1,15 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(188, 19, 254, 0.3);
+  // background: rgba(255, 226, 216, 0.7);
+  z-index: 2;
+  li {
+    text-align: center;
+    padding: 0.2em 0;
+  }
+  a:hover {
+      padding-bottom: 0.1em;
+      border-bottom: 0.1em solid #fff;
+  }
+}
