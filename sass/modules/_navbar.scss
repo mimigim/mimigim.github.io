@@ -1,7 +1,7 @@
 nav {
   position: fixed;
   width: 100%;
-  background: rgba(188, 19, 254, 0.3);
+  background: $navbar-color;
   z-index: 2;
   li {
     text-align: center;

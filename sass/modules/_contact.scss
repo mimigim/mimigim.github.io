@@ -1,5 +1,5 @@
 .contact {
-  background: url('../../img/smile.jpg') center center;
+  background: $contact-background center center;
   background-size: contain;
   background-attachment: fixed;
   text-align: center;
@@ -8,7 +8,7 @@
     font-size: 3em;
     padding: 0.1em;
     &:hover {
-      color: #23EF90;
+      color: $contact-hover-color;
     }
   }
 }

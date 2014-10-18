@@ -467,46 +467,12 @@ a {
 figcaption {
   text-align: center; }
 
-/* DEFINE BASE FONT FILES */
-html {
-  font-size: 18px;
-  font-family: 'Karla', sans-serif; }
-  @media (min-width: 800px) {
-    html {
-      font-size: 19px; } }
-  @media (min-width: 860px) {
-    html {
-      font-size: 20px; } }
-  @media (min-width: 920px) {
-    html {
-      font-size: 21px; } }
-  @media (min-width: 1000px) {
-    html {
-      font-size: 22px; } }
+hr {
+  margin: 0 30%; }
 
-h1 {
-  text-align: center; }
-
-header h1 {
-  font-size: 4.2358rem; }
-header p {
-  font-size: 1.618rem;
-  margin-bottom: 0.5em; }
-header a {
-  font-size: 0.61805rem;
-  color: #fff; }
-
-.icon-keyboard {
-  font-size: 4.2358rem; }
-
-.about p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  width: 60%;
-  margin: 0 auto; }
-
-figcaption {
-  font-family: 'Open Sans Condensed', sans-serif; }
-
+/* COLORS */
+/* FONTS */
+/* IMAGES */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?-skws5q");
@@ -576,8 +542,44 @@ figcaption {
 .icon-linkedin:before {
   content: "\e610"; }
 
-hr {
-  margin: 0 30%; }
+html {
+  font-size: 18px;
+  font-family: 'Karla', sans-serif; }
+  @media (min-width: 800px) {
+    html {
+      font-size: 19px; } }
+  @media (min-width: 860px) {
+    html {
+      font-size: 20px; } }
+  @media (min-width: 920px) {
+    html {
+      font-size: 21px; } }
+  @media (min-width: 1000px) {
+    html {
+      font-size: 22px; } }
+
+h1 {
+  text-align: center; }
+
+header h1 {
+  font-size: 4.2358rem; }
+header p {
+  font-size: 1.618rem;
+  margin-bottom: 0.5em; }
+header a {
+  font-size: 0.61805rem;
+  color: #fff; }
+
+.icon-keyboard {
+  font-size: 4.2358rem; }
+
+.about p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 60%;
+  margin: 0 auto; }
+
+figcaption {
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 .about {
   padding-top: 4em;
@@ -599,63 +601,10 @@ hr {
   .contact h1 {
     padding-bottom: 1em; }
 
-nav {
-  position: fixed;
-  width: 100%;
-  background: rgba(188, 19, 254, 0.3);
-  z-index: 2; }
-  nav li {
-    text-align: center;
-    padding: 0.2em 0; }
-  nav a:hover {
-    padding-bottom: 0.1em;
-    border-bottom: 0.1em solid #fff; }
-
-header {
-  background: url(../img/dogs.jpg) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 33em; }
-  header section {
-    position: relative;
-    top: 5em;
-    text-align: center;
-    z-index: 1; }
-
-.about {
-  text-align: center; }
-  .about img {
-    border-radius: 50%;
-    width: 10em;
-    height: 10em; }
-
-.portfolio section {
-  width: 96%;
-  margin: 0 auto; }
-.portfolio img {
-  width: 100%; }
-
-.contact {
-  background: url("../../img/smile.jpg") center center;
-  background-size: contain;
-  background-attachment: fixed;
-  text-align: center; }
-  .contact a {
-    color: #fff;
-    font-size: 3em;
-    padding: 0.1em; }
-    .contact a:hover {
-      color: #23EF90; }
-
 footer {
-  text-align: center;
   margin-bottom: 0;
   padding-top: 1em;
-  padding-bottom: 1em;
-  background: #000;
-  font-size: 2em; }
-  footer a {
-    color: #fff; }
+  padding-bottom: 1em; }
 
 /*  SECTIONS  */
 .section {
@@ -724,7 +673,7 @@ footer {
   header {
     background: none; }
     header section {
-      background: rgba(255, 226, 216, 0.5);
+      background: #ffe2d8;
       margin-left: 1em;
       margin-right: 1em;
       padding-top: 3em;
@@ -744,5 +693,61 @@ footer {
   .contact {
     background: url("../../img/smile.jpg") no-repeat center center;
     background-size: contain; } }
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(188, 19, 254, 0.3);
+  z-index: 2; }
+  nav li {
+    text-align: center;
+    padding: 0.2em 0; }
+  nav a:hover {
+    padding-bottom: 0.1em;
+    border-bottom: 0.1em solid #fff; }
+
+header {
+  background: url(../img/dogs.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 33em; }
+  header section {
+    position: relative;
+    text-align: center;
+    top: 5em;
+    z-index: 1; }
+
+.about {
+  text-align: center; }
+  .about img {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em; }
+
+.portfolio section {
+  width: 96%;
+  margin: 0 auto; }
+.portfolio img {
+  width: 100%; }
+
+.contact {
+  background: url("../../img/smile.jpg") center center;
+  background-size: contain;
+  background-attachment: fixed;
+  text-align: center; }
+  .contact a {
+    color: #fff;
+    font-size: 3em;
+    padding: 0.1em; }
+    .contact a:hover {
+      color: #23EF90; }
+
+footer {
+  text-align: center;
+  background: #000;
+  font-size: 2em; }
+  footer a {
+    color: #fff; }
+    footer a:hover {
+      color: #ffe2d8; }
 
 /*# sourceMappingURL=app.css.map */

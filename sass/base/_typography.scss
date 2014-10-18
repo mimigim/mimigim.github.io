@@ -1,25 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Muli);
-@import url(http://fonts.googleapis.com/css?family=Ovo);
-@import url(http://fonts.googleapis.com/css?family=Karla);
-@import url(http://fonts.googleapis.com/css?family=Merriweather);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
-/* DEFINE BASE FONT FILES */
-$base: 1rem;
-
-$medium: $base;
-$small: $medium/1.618;
-$tiny: $small/1.618;
-$large: $medium * 1.618;
-$huge: $large * 1.618;
-$mega: $huge * 1.618;
-
-@mixin media-min($width, $font) {
-  @media (min-width: $width){
-    font-size: $font;
-  }
-}
-
 html {
   font-size: 18px;
   font-family: 'Karla', sans-serif;
@@ -47,7 +25,6 @@ header {
     color: #fff;
   }
 }
-
 
 .icon-keyboard {
   font-size: $mega;

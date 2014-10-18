@@ -1,12 +1,12 @@
 header {
-  background: url(../img/dogs.jpg) no-repeat center center;
+  background: $header-background no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 33em;
   section {
     position: relative;
-    top: 5em;
     text-align: center;
+    top: 5em;
     z-index: 1;
   }
 }

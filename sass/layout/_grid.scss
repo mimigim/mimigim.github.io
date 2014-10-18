@@ -79,11 +79,6 @@
       padding-top: 3em;
       padding-bottom: 3em;
     }
-    // background-position: 72%;
-    // height: 45em;
-    // section {
-    //   top: 2em;
-    // }
     .icon-keyboard {
       display: none;
     }
@@ -95,15 +90,7 @@
 
 @media only screen and (max-width: 335px) {
   header {
-    // background: none;
     height: 28em;
-    // section {
-    //   background: $peach;
-    //   margin-left: 1em;
-    //   margin-right: 1em;
-    //   padding-top: 3em;
-    //   padding-bottom: 3em;
-    // }
     h1 {
       font-size: $huge;
     }
@@ -111,10 +98,6 @@
       font-size: $medium;
     }
   }
-
-  // .portfolio {
-  //   padding-bottom: 4em;
-  // }
 
   .contact {
     background: url('../../img/smile.jpg') no-repeat center center;
