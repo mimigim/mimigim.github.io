@@ -464,6 +464,9 @@ a {
 .clear {
   clear: both; }
 
+figcaption {
+  text-align: center; }
+
 /* DEFINE BASE FONT FILES */
 html {
   font-size: 18px;
@@ -487,7 +490,6 @@ h1 {
 header h1 {
   font-size: 4.2358rem; }
 header p {
-  font-family: 'Ovo', serif;
   font-size: 1.618rem;
   margin-bottom: 0.5em; }
 header a {
@@ -574,17 +576,6 @@ figcaption {
 .icon-linkedin:before {
   content: "\e610"; }
 
-header {
-  background: url(../img/dogs.jpg) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 33em; }
-  header section {
-    position: relative;
-    top: 5em;
-    text-align: center;
-    z-index: 1; }
-
 hr {
   margin: 0 30%; }
 
@@ -598,7 +589,7 @@ hr {
 
 .portfolio {
   padding-top: 4em;
-  padding-bottom: 4em; }
+  padding-bottom: 10em; }
   .portfolio h1 {
     padding-bottom: 1em; }
 
@@ -620,26 +611,29 @@ nav {
     padding-bottom: 0.1em;
     border-bottom: 0.1em solid #fff; }
 
+header {
+  background: url(../img/dogs.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 33em; }
+  header section {
+    position: relative;
+    top: 5em;
+    text-align: center;
+    z-index: 1; }
+
 .about {
-  text-align: center;
-  background-size: cover; }
+  text-align: center; }
   .about img {
     border-radius: 50%;
     width: 10em;
     height: 10em; }
 
-.tut {
-  width: 100%; }
-
-.portfolio__container {
+.portfolio section {
   width: 96%;
   margin: 0 auto; }
-
-figcaption {
-  text-align: center; }
-
-.portfolio {
-  padding-bottom: 10em; }
+.portfolio img {
+  width: 100%; }
 
 .contact {
   background: url("../../img/smile.jpg") center center;
@@ -650,8 +644,8 @@ figcaption {
     color: #fff;
     font-size: 3em;
     padding: 0.1em; }
-  .contact span:hover {
-    color: #23EF90; }
+    .contact a:hover {
+      color: #23EF90; }
 
 footer {
   text-align: center;
@@ -728,17 +722,22 @@ footer {
       padding: 0.8em; }
 
   header {
-    background-position: 54%; }
+    background: none; }
     header section {
-      top: 0.5em; }
+      background: rgba(255, 226, 216, 0.5);
+      margin-left: 1em;
+      margin-right: 1em;
+      padding-top: 3em;
+      padding-bottom: 3em; }
     header .icon-keyboard {
-      display: none; } }
+      display: none; }
+    header .portfolio {
+      padding-bottom: 4em; } }
 @media only screen and (max-width: 335px) {
   header {
-    color: #fff; }
+    height: 28em; }
     header h1 {
-      padding-top: 0.6em;
-      font-size: 4.2358rem; }
+      font-size: 2.61792rem; }
     header p {
       font-size: 1rem; }
 
