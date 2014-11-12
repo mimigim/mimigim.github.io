@@ -632,7 +632,7 @@ header {
     width: 100%; }
 
 .contact {
-  background: url("../../img/smile.jpg") center center;
+  background: url("../img/smile.jpg") center center;
   background-size: contain;
   background-attachment: fixed;
   text-align: center; }
@@ -648,7 +648,7 @@ footer {
   background: #000;
   font-size: 2em; }
   footer a {
-    color: #fff; }
+    color: #FFF; }
     footer a:hover {
       color: #ffe2d8; }
 
