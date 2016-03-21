@@ -1,5 +1,0 @@
-@mixin media-min($width, $font) {
-  @media (min-width: $width){
-    font-size: $font;
-  }
-}
